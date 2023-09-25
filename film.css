@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -37,6 +39,10 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    font-weight: bold;
+    color: rgb(197, 44, 95);
+}
 footer{
     display: inline-block;
     width: 100vw;
@@ -52,49 +58,29 @@ footer a{
 }
 .container{
     display: flex;
-    height: 60vh;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     align-content: space-around;
     width: 100vw;
     margin: 5% 0;
-    gap: 10%
 }
 article{
     display: inline-block;
-    min-width: 15vw;
-    min-height: 50vh;
-    margin: 5px 0;
-    background-color: rgb(197, 44, 95);
     text-align: center;
-    border-radius: 30px;
     position: relative;
 }
 .cover{
     display: inline-block;
-    min-width: 12vw;
-    height: 40vh;
-    padding: 10%;
-    border-radius: 30px;
+    min-width: 15vw;
+    height: 50vh;
+    padding: 5%;
+    border-radius: 20px;
     text-align: center;
-    transition: all 1s ease-in-out 1ms;
 }
 article p{
-    color: white;
+    color: rgb(197, 44, 95);
     font-weight: bolder;
     font-size: larger;
-    margin-bottom: 7px;
-}
-a{
-    transition: all 1s ease-out 1ms;
-}
-article:hover a{
-    background-color: white;
-    padding: 3px;
-    border-radius: 10px;
-    color: rgb(197, 44, 95);
-}
-article:hover .cover{
-    transform: scale(1.1);
+    font-family: 'Varela Round', sans-serif;
 }
