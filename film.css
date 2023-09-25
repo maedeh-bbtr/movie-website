@@ -39,10 +39,6 @@ a{
     text-decoration: none;
     color: black;
 }
-a:hover{
-    font-weight: bold;
-    color: rgb(197, 44, 95);
-}
 footer{
     display: inline-block;
     width: 100vw;
@@ -77,10 +73,14 @@ article{
     padding: 5%;
     border-radius: 20px;
     text-align: center;
+    transition: all 1s ease-out 1ms;
 }
 article p{
     color: rgb(197, 44, 95);
     font-weight: bolder;
     font-size: larger;
     font-family: 'Varela Round', sans-serif;
+}
+.cover:hover{
+    transform: scale(1.1);    
 }
